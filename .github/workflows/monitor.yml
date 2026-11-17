@@ -1,4 +1,4 @@
-name: Hubli-Dharwad Recruitment Monitor
+name: Job Notification Monitor
 
 on:
   schedule:
