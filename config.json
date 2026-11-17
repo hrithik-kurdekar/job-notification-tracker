@@ -1,0 +1,16 @@
+{
+  "alert_mode": "all",
+  "include_keywords": [
+    "recruitment", "advertisement", "advt", "regular", "permanent",
+    "superintendent", "technical", "assistant", "officer", "programmer",
+    "computer", "instructor", "non-teaching", "staff", "corrigendum"
+  ],
+  "exclude_keywords": [
+    "tender", "quotation", "niq", "auction", "ph.d. admission"
+  ],
+  "send_health_warnings": true,
+  "weekly_heartbeat_day": "Sunday",
+  "page_timeout_seconds": 45,
+  "js_render_wait_seconds": 2,
+  "min_text_length": 10
+}
