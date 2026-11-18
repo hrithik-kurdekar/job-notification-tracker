@@ -2,6 +2,7 @@ name: Job Notification Alert Bot
 
 on:
   schedule:
+    - cron: '30 2 * * *'    # 02:30 UTC = 8:00 AM IST daily
     - cron: '30 14 * * *'   # 14:30 UTC = 8:00 PM IST daily
   workflow_dispatch:
 
@@ -24,7 +25,7 @@ jobs:
       - name: Install Python packages
         run: pip install -r requirements.txt
 
-      - name: Run recruitment scraper
+      - name: Run monitor
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -35,5 +36,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add state.json
-          git diff --staged --quiet || git commit -m "chore: update state [skip ci]"
+          git diff --staged --quiet || git commit -m "chore: update monitor state [skip ci]"
           git push

@@ -1,17 +1,10 @@
 {
-  "alert_mode": "all",
-  "include_keywords": [
-    "recruitment", "advertisement", "advt", "regular", "permanent",
-    "superintendent", "technical", "assistant", "officer", "programmer",
-    "computer", "instructor", "non-teaching", "staff", "corrigendum"
-  ],
-  "exclude_keywords": [
-    "tender", "quotation", "niq", "auction", "ph.d. admission"
-  ],
-  "send_health_warnings": true,
-  "weekly_heartbeat_day": "Sunday",
+  "min_added_chars": 8,
+  "min_expected_page_lines": 5,
+  "similarity_threshold": 0.90,
+  "ignore_years": ["2020", "2021", "2022", "2023", "2024", "2025"],
+  "max_preview_lines_per_site": 4,
   "page_timeout_seconds": 60,
   "js_render_wait_seconds": 4.5,
-  "min_text_length": 10,
   "max_retries": 3
 }
