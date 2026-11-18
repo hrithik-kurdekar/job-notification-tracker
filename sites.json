@@ -25,11 +25,6 @@
     "enabled": true
   },
   {
-    "name": "Karnataka High Court",
-    "url": "https://karnatakajudiciary.kar.nic.in/recruitment.php",
-    "enabled": true
-  },
-  {
     "name": "UAS Dharwad",
     "url": "https://uasd.edu/en/category/recruitment/",
     "enabled": true
@@ -40,28 +35,8 @@
     "enabled": true
   },
   {
-    "name": "KMCRI / KIMS Hubballi",
-    "url": "https://hubballikims.karnataka.gov.in/english",
-    "enabled": true
-  },
-  {
-    "name": "DIMHANS Dharwad",
-    "url": "https://dimhans.karnataka.gov.in/english",
-    "enabled": true
-  },
-  {
     "name": "Dharwad District NIC",
     "url": "https://dharwad.nic.in/en/notice_category/recruitment/",
-    "enabled": true
-  },
-  {
-    "name": "KEA Karnataka",
-    "url": "https://cetonline.karnataka.gov.in/kea/",
-    "enabled": true
-  },
-  {
-    "name": "KPSC Karnataka",
-    "url": "https://kpsc.kar.nic.in/",
     "enabled": true
   }
 ]
